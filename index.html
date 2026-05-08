@@ -1,130 +1,250 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <title>The Cysters</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wedding Invitation</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
-  <div class="page-shell">
-    <main class="hero" id="top">
-      <div class="hero-overlay"></div>
-      <div class="hero-copy">
-        <p class="hero-intro">YOU ARE INVITED TO THE WEDDING OF</p>
-        <h1>Avery & Jordan</h1>
-        <p class="hero-date">May 18, 2026</p>
-      </div>
-    </main>
 
-    <section class="section save-date-section" id="save-date">
-      <div class="section-head">
-        <span class="section-label">Save the Date</span>
-      </div>
-      <div class="save-date-card">
-        <p class="save-date-top">25. 04. 2026</p>
-        <p class="save-date-copy">
-          With joyful hearts and deep gratitude, we invite you to celebrate the beginning of our forever.
-        </p>
-        <div class="save-date-calendar">
-          <div class="calendar-month">April 2026</div>
-          <div class="calendar-weekdays">
-            <span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span>
-          </div>
-          <div class="calendar-grid">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span>1</span>
-            <span>2</span>
-            <span>3</span>
-            <span>4</span>
-            <span>5</span>
-            <span>6</span>
-            <span>7</span>
-            <span>8</span>
-            <span>9</span>
-            <span>10</span>
-            <span>11</span>
-            <span>12</span>
-            <span>13</span>
-            <span>14</span>
-            <span>15</span>
-            <span>16</span>
-            <span>17</span>
-            <span>18</span>
-            <span>19</span>
-            <span>20</span>
-            <span>21</span>
-            <span>22</span>
-            <span>23</span>
-            <span>24</span>
-            <span class="calendar-day highlight">25</span>
-            <span>26</span>
-            <span>27</span>
-            <span>28</span>
-            <span>29</span>
-            <span>30</span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-      </div>
-    </section>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-overlay">
+      <p class="small-text">YOU ARE INVITED TO<br>THE WEDDING OF</p>
 
-    <section class="section" id="details">
-      <div class="section-head">
-        <span class="section-label">Details</span>
-      </div>
-      <div class="info-card">
-        <h2>Ceremony</h2>
-        <p>Willow Garden Chapel</p>
-        <p>123 Meadow Lane, Springville</p>
-      </div>
-      <div class="info-card">
-        <h2>Reception</h2>
-        <p>Starlight Hall</p>
-        <p>45 Celebration Drive, Springville</p>
-      </div>
-    </section>
+      <h1 class="couple-names">
+        FERREN<br>
+        <span>and</span><br>
+        HERSCHELLE
+      </h1>
+    </div>
+  </section>
 
-    <section class="section" id="timeline">
-      <div class="section-head">
-        <span class="section-label">Timeline</span>
-      </div>
-      <div class="timeline-list">
-        <div class="timeline-item">
-          <span>4:00 PM</span>
-          <p>Guest arrival and welcome drinks</p>
-        </div>
-        <div class="timeline-item">
-          <span>5:00 PM</span>
-          <p>Ceremony begins</p>
-        </div>
-        <div class="timeline-item">
-          <span>6:00 PM</span>
-          <p>Couple photos and cocktail hour</p>
-        </div>
-        <div class="timeline-item">
-          <span>7:00 PM</span>
-          <p>Reception dinner and speeches</p>
-        </div>
-      </div>
-    </section>
+  <!-- SAVE THE DATE -->
+  <section class="section light">
+    <h2>SAVE THE DATE</h2>
 
-    <section class="section" id="dress-code">
-      <div class="section-head">
-        <span class="section-label">Dress Code</span>
+    <p class="date">25 . 04 . 2026</p>
+
+    <p class="description">
+      With joyful hearts and deep gratitude we invite you to celebrate
+      the beginning of our forever.
+    </p>
+
+    <div class="calendar">
+      <h3>APRIL 2026</h3>
+
+      <div class="calendar-grid">
+        <div>S</div>
+        <div>M</div>
+        <div>T</div>
+        <div>W</div>
+        <div>T</div>
+        <div>F</div>
+        <div>S</div>
+
+        <div></div><div></div><div></div>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+
+        <div>12</div>
+        <div>13</div>
+        <div>14</div>
+        <div>15</div>
+        <div>16</div>
+        <div>17</div>
+        <div>18</div>
+
+        <div>19</div>
+        <div>20</div>
+        <div>21</div>
+        <div>22</div>
+        <div>23</div>
+        <div>24</div>
+
+        <div class="heart-day">25 ❤</div>
+
+        <div>26</div>
+        <div>27</div>
+        <div>28</div>
+        <div>29</div>
+        <div>30</div>
       </div>
-      <p class="section-text">
-        Dress to impress in cocktail attire: elegant dresses, suits, or dressy separates. Comfortable shoes are encouraged for dancing.
+    </div>
+  </section>
+
+  <!-- IMAGE -->
+  <section class="image-section">
+    <img src="https://picsum.photos/500/700?random=1" alt="Couple">
+  </section>
+
+  <!-- DETAILS -->
+  <section class="section light">
+    <h2>DETAILS</h2>
+
+    <div class="detail-block">
+      <h3>Ceremony</h3>
+      <p>All Saints Church, Paarl North</p>
+    </div>
+
+    <div class="detail-block">
+      <h3>Reception</h3>
+      <p>New Oaks Estate, Paarl North</p>
+    </div>
+
+    <div class="gift-note">
+      <h2>A NOTE ON GIFTS</h2>
+
+      <p>
+        Your love, laughter and company at our wedding is all we need.
+        However, if you wish to help us celebrate with a gift,
+        a contribution toward our wishing well will be warmly received.
       </p>
-    </section>
-  </div>
+    </div>
+  </section>
 
-  <a class="rsvp-button" href="#" role="button">RSVP</a>
+  <!-- IMAGE -->
+  <section class="image-section">
+    <img src="https://picsum.photos/500/700?random=2" alt="Couple">
+  </section>
+
+  <!-- TIMELINE -->
+  <section class="section light">
+    <h2>TIMELINE</h2>
+
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <div class="dot"></div>
+
+        <div class="timeline-content">
+          <h4>09:00 AM</h4>
+          <p>Ceremony</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="dot"></div>
+
+        <div class="timeline-content">
+          <h4>10:00 AM</h4>
+          <p>Wedding Photos & Pre-Drinks</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="dot"></div>
+
+        <div class="timeline-content">
+          <h4>11:30 AM</h4>
+          <p>Reception</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="dot"></div>
+
+        <div class="timeline-content">
+          <h4>13:00 PM</h4>
+          <p>Cutting Cake</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="dot"></div>
+
+        <div class="timeline-content">
+          <h4>14:00 PM</h4>
+          <p>Farewell</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- IMAGE -->
+    <section class="image-section">
+      <img src="https://picsum.photos/500/700?random=3" alt="Couple">
+    </section>
+
+    <!-- DRESS CODE -->
+    <div class="dress-code">
+      <h2>DRESS CODE</h2>
+
+      <h3>SEMI-FORMAL</h3>
+
+      <p>
+        We kindly encourage guests to wear these colors to complement our wedding theme.
+      </p>
+
+      <div class="color-palette">
+        <span class="c1"></span>
+        <span class="c2"></span>
+        <span class="c3"></span>
+        <span class="c4"></span>
+        <span class="c5"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CAROUSEL -->
+  <section class="carousel-section">
+    <div class="carousel-container">
+      <div class="carousel-slide active">
+        <img src="https://picsum.photos/500/700?random=4" alt="Wedding moment 1">
+      </div>
+      <div class="carousel-slide">
+        <img src="https://picsum.photos/500/700?random=5" alt="Wedding moment 2">
+      </div>
+      <div class="carousel-slide">
+        <img src="https://picsum.photos/500/700?random=6" alt="Wedding moment 3">
+      </div>
+      <div class="carousel-slide">
+        <img src="https://picsum.photos/500/700?random=7" alt="Wedding moment 4">
+      </div>
+    </div>
+    <div class="carousel-controls">
+      <button class="carousel-btn prev-btn">&lt;</button>
+      <div class="carousel-indicators">
+        <span class="indicator active" data-slide="0"></span>
+        <span class="indicator" data-slide="1"></span>
+        <span class="indicator" data-slide="2"></span>
+        <span class="indicator" data-slide="3"></span>
+      </div>
+      <button class="carousel-btn next-btn">&gt;</button>
+    </div>
+  </section>
+
+  <!-- RSVP -->
+  <section class="section light rsvp-section">
+    <h2>WE LOOK FORWARD TO<br>SEEING YOU!</h2>
+
+    <p>
+      Our celebration wouldn't be the same without you.
+      Please let us know if you plan to attend by following the RSVP link below.
+    </p>
+
+    <button id="rsvpBtn">RSVP</button>
+  </section>
+
+  <script src="./script.js"></script>
+
 </body>
 </html>
